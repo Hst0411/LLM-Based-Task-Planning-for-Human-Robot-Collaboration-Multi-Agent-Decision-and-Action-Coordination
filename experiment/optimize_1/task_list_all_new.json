@@ -1,0 +1,64 @@
+{
+  "robots": {
+    "robot1": {
+      "position": {"x": -3.8, "y": 0, "z": 3.46},
+      "current_task_id": null,
+      "status": "idle"
+    },
+    "robot2": {
+      "position": {"x": 4.0, "y": 0, "z": 2.72},
+      "current_task_id": null,
+      "status": "idle"
+    }
+  },
+  "tasks": [
+    {
+      "name": "banana",
+      "id": 10724664,
+      "position": {"x": -1.622, "y": 0, "z": -3.863},
+      "target": {"x": 6.0, "y": 0, "z": -1.4},
+      "state": "unfinished",
+      "assigned_to": null
+    },
+    {
+      "name": "orange",
+      "id": 6871504,
+      "position": {"x": -1.664, "y": 0, "z": 2.612},
+      "target": {"x": 8.796, "y": 0, "z": 1.525},
+      "state": "unfinished",
+      "assigned_to": null
+    },
+    {
+      "name": "loafbread",
+      "id": 1051562,
+      "position": {"x": 5.054, "y": 0, "z": -3.5},
+      "target": {"x": -3.51, "y": 0, "z": 2.463},
+      "state": "unfinished",
+      "assigned_to": null
+    },
+    {
+      "name": "bread",
+      "id": 11530259,
+      "position": {"x": -8.187, "y": 0, "z": -1.262},
+      "target": {"x": -10.196, "y": 0, "z": 2.625},
+      "state": "unfinished",
+      "assigned_to": null
+    },
+    {
+      "name": "burger",
+      "id": 13875562,
+      "position": {"x": 6.246, "y": 0, "z": 1.825},
+      "target": {"x": 6.296, "y": 0, "z": 0.525},
+      "state": "unfinished",
+      "assigned_to": null
+    },
+    {
+      "name": "apple",
+      "id": 14540030,
+      "position": {"x": 2.746, "y": 0, "z": -2.425},
+      "target": {"x": -3.996, "y": 0, "z": -1.725},
+      "state": "unfinished",
+      "assigned_to": null
+    }
+  ]
+}
