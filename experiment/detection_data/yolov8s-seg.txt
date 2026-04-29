@@ -1,0 +1,34 @@
+=== Results for folder: apple ===
+apple_0000.jpg: apple (0.95)
+apple_0001.jpg: apple (0.96)
+
+=== Results for folder: banana ===
+banana_0000.jpg: banana (0.97)
+banana_0001.jpg: banana (0.97)
+
+=== Results for folder: bread ===
+bread_0000.jpg: bread (0.56)
+bread_0001.jpg: bread (0.52)
+
+=== Results for folder: burger ===
+burger_0000.jpg: burger (0.91)
+burger_0001.jpg: burger (0.93)
+
+=== Results for folder: human ===
+human_0000.jpg: a agent (0.94)
+human_0001.jpg: a agent (0.93)
+human_0002.jpg: a agent (0.85)
+human_0003.jpg: a agent (0.87)
+
+=== Results for folder: loafbread ===
+loafbread_0000.jpg: (no target detected)
+loafbread_0001.jpg: (no target detected)
+
+=== Results for folder: orange ===
+orange_0000.jpg: orange (0.90)
+orange_0001.jpg: orange (0.89)
+
+=== Results for folder: phone ===
+phone_0000.jpg: phone (0.88)
+phone_0001.jpg: phone (0.89)
+
