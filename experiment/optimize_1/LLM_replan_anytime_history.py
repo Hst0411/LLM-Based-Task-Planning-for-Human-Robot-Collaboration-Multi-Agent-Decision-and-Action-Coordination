@@ -2,7 +2,7 @@ import json, time, os, math, re
 from typing import List, Dict, Tuple, Optional
 from openai import OpenAI
 
-API_KEY = "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"
+API_KEY = "API_KEY"
 
 client = OpenAI(api_key=API_KEY)
 
