@@ -1,12 +1,10 @@
-# LLM-Based-Task-Planning-for-Human-Robot-Collaboration-Multi-Agent-Decision-and-Action-Coordination
-
-### 🧠 Prompt & Semantic State Design
+# 🧠 Prompt & Semantic State Design
 
 This project adopts a centralized LLM-based planner with a structured semantic state abstraction to enable efficient and consistent multi-agent coordination under partial observability.
 
 ### 📦 Semantic State Representation
 
-Instead of feeding raw perception (e.g., RGB-D images) into the LLM, we convert observations into a compact, task-oriented semantic state.
+Instead of feeding raw perception (e.g., RGB-D images) into the LLM, we convert observations into a task-oriented semantic state.
 
 #### Format
 ```
@@ -81,8 +79,16 @@ OR
 
 The LLM must output a valid JSON object only (no explanations or extra text):
 ```
-{
-  "Robot1": [["bread"], ["apple"]],
-  "Robot2": [["bowl"]]
-}
+{{
+  "Robot1": [
+    {{"id": ..., "pickup": ..., "dropoff": ...}},
+    {{"id": ..., "pickup": ..., "dropoff": ...}},
+    ...
+  ],
+  "Robot2": [
+    {{"id": 01234, "pickup": ..., "dropoff": ...}},
+    {{"id": 56789, "pickup": ..., "dropoff": ...}},
+    ...
+  ]
+}}
 ```
