@@ -1,0 +1,44 @@
+[
+    {
+      "name": "banana",
+      "id": 10724664,
+      "position": {"x": 1.002, "y": 0, "z": 0.041},
+      "target": {"x": 1.002, "y": 0, "z": -1.041},
+      "state": "unfinished"
+    },
+    {
+      "name": "orange",
+      "id": 1800460,
+      "position": {"x": 2.416, "y": 0, "z": -2.837},
+      "target": {"x": 2.416, "y": 0, "z": -3.837},
+      "state": "unfinished"
+    },
+    {
+      "name": "loafbread",
+      "id": 13993647,
+      "position": {"x": -1.086, "y": 0, "z": 3.412},
+      "target": {"x": -1.086, "y": 0, "z": 2.412},
+      "state": "unfinished"
+    },
+    {
+      "name": "bread",
+      "id": 12782545,
+      "position": {"x": 1.503, "y": 0, "z": 3.041},
+      "target": {"x": 1.503, "y": 0, "z": 4.041},
+      "state": "unfinished"
+    },
+    {
+      "name": "burger",
+      "id": 1666872,
+      "position": {"x": 0.666, "y": 0, "z": 1.413},
+      "target": {"x": -1.666, "y": 0, "z": 1.413},
+      "state": "unfinished"
+    },
+    {
+      "name": "apple",
+      "id": 144526,
+      "position": {"x": 1.503, "y": 0, "z": 1.413},
+      "target": {"x": 1.503, "y": 0, "z": 0.413},
+      "state": "unfinished"
+    }
+]
