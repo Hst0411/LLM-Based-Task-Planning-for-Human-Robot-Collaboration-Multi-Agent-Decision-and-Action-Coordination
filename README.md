@@ -42,26 +42,6 @@ finished              # task finished (irreversible)
 }
 ```
 
-### 🧾 Language State (LLM Input)
-
-All semantic states, task information, and robot states are converted into a structured natural language description before being sent to the LLM.
-
-#### Example
-```
-[Task List]
-- Task 1: Move bread to kitchen table (status: unfinished)
-- Task 2: Move apple to fridge (status: completed)
-- Task 3: Move bowl to sink (status: picked_by_human)
-
-[Robot States]
-- Robot1: position=(1.0, 0.0, 2.0), status=idle
-- Robot2: position=(-2.0, 0.0, 1.5), status=executing Task 3
-
-[Environment Notes]
-- Human is holding bowl
-- Bread is on the counter
-```
-
 ### 🤖 LLM Prompt Template
 
 The centralized LLM acts as a global task planner. The prompt is carefully designed to enforce constraints and ensure consistent outputs.
